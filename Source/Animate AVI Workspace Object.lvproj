@@ -23,15 +23,8 @@
 		</Item>
 		<Item Name="Animation - AVI.vi" Type="VI" URL="../Animation - AVI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="QMH Add Message to Queue (Array).vi" Type="VI" URL="/&lt;userlib&gt;/QMH/QMH Add Message to Queue (Array).vi"/>
-				<Item Name="QMH Add Message to Queue (Single Element).vi" Type="VI" URL="/&lt;userlib&gt;/QMH/QMH Add Message to Queue (Single Element).vi"/>
-				<Item Name="QMH Add Message to Queue.vi" Type="VI" URL="/&lt;userlib&gt;/QMH/QMH Add Message to Queue.vi"/>
-				<Item Name="QMH Create Queue.vi" Type="VI" URL="/&lt;userlib&gt;/QMH/QMH Create Queue.vi"/>
-				<Item Name="QMH Destroy Queue.vi" Type="VI" URL="/&lt;userlib&gt;/QMH/QMH Destroy Queue.vi"/>
-				<Item Name="QMH Get Next Message from Queue.vi" Type="VI" URL="/&lt;userlib&gt;/QMH/QMH Get Next Message from Queue.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
 				<Item Name="AviRefnum.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Avi1.llb/AviRefnum.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -89,6 +82,7 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
